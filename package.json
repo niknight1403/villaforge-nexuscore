@@ -1,12 +1,19 @@
 {
-  "name": "my-project",
+  "name": "nexuscore",
   "version": "1.0.0",
-  "description": "My project",
+  "description": "A central orchestration framework for autonomous agent villages",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "build": "node tests/run.mjs",
+    "test": "node tests/run.mjs",
+    "smoke": "node tests/smoke.mjs"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "redis": "^4.0.0"
   }
 }
