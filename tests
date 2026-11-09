@@ -1,0 +1,25 @@
+import unittest
+from nexuscore.api_gateway import APIGateway
+from nexuscore.billing_module import BillingModule
+from nexuscore.task_scheduler import TaskScheduler
+from nexuscore.monitoring_dashboard import MonitoringDashboard
+
+class TestNexusCore(unittest.TestCase):
+    def test_api_gateway(self):
+        api_gateway = APIGateway()
+        self.assertIsNotNone(api_gateway)
+
+    def test_billing_module(self):
+        billing_module = BillingModule()
+        self.assertIsNotNone(billing_module)
+
+    def test_task_scheduler(self):
+        task_scheduler = TaskScheduler()
+        self.assertIsNotNone(task_scheduler)
+
+    def test_monitoring_dashboard(self):
+        monitoring_dashboard = MonitoringDashboard()
+        self.assertIsNotNone(monitoring_dashboard)
+
+if __name__ == '__main__':
+    unittest.main()
