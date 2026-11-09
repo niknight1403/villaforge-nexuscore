@@ -1,0 +1,10 @@
+{
+  "name": "nexus-core",
+  "version": "1.0.0",
+  "description": "NexusCore Orchestration Framework",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1",
+    "build": "go build -o bin/nexus-core ./cmd/api/main.go"
+  },
+  "license": "MIT"
+}
