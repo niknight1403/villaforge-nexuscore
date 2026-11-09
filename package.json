@@ -1,10 +1,12 @@
 {
-  "name": "nexus-core",
+  "name": "my-project",
   "version": "1.0.0",
-  "description": "NexusCore Orchestration Framework",
+  "description": "My project",
+  "main": "index.js",
   "scripts": {
-    "test": "echo 'Error: no test specified' && exit 1",
-    "build": "go build -o bin/nexus-core ./cmd/api/main.go"
+    "start": "node index.js"
   },
-  "license": "MIT"
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
