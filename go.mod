@@ -1,9 +1,8 @@
-module github.com/nexuscore/core
+module nexuscore
 
-go 1.23
+go 1.21
 
 require (
-	github.com/golang-jwt/jwt/v5 v5.2.1
-	github.com/lib/pq v1.10.9
-	github.com/redis/go-redis/v9 v9.5.1
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/gin-gonic/gin v1.9.1
 )

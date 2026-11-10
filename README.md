@@ -1,4 +1,4 @@
-# NexusCore
+# NexusCore (Go-based Orchestration Framework)
 
 Zentrales Orchestrierungs-Framework für autonome Agenten-Villen.
 

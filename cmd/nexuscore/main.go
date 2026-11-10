@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"nexuscore/internal/core"
+)
 
 func main() {
-	fmt.Println("NexusCore API Gateway starting...")
+	fmt.Println("Starting NexusCore...")
+	core.StartGateway()
 }

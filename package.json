@@ -1,11 +1,1 @@
-{
-  "name": "nexuscore",
-  "version": "1.0.0",
-  "description": "NexusCore Orchestration Framework",
-  "scripts": {
-    "build": "go build -o bin/nexuscore ./cmd/api/main.go",
-    "test": "go test ./internal/...",
-    "smoke": "go run cmd/api/main.go --test-mode"
-  },
-  "dependencies": {}
-}
+[object Object]
