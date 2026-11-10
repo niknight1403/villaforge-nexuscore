@@ -1,1 +1,1 @@
-[object Object]
+{"name":"nexuscore","version":"1.0.0","description":"Orchestration Framework","main":"main.go","scripts":{"build":"go build -o bin/nexuscore ./cmd/nexuscore","test":"go test ./..."}}
