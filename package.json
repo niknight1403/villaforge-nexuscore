@@ -1,10 +1,11 @@
 {
   "name": "nexuscore",
   "version": "1.0.0",
-  "description": "Zentrales Orchestrierungs-Framework für autonome Agenten-Villen",
+  "description": "NexusCore Orchestration Framework",
   "scripts": {
-    "build": "echo 'Build complete: NexusCore ready'",
-    "test": "echo 'Tests complete: NexusCore ready'",
-    "smoke": "echo 'Smoke test complete: NexusCore ready'"
-  }
+    "build": "go build -o bin/nexuscore ./cmd/api/main.go",
+    "test": "go test ./internal/...",
+    "smoke": "go run cmd/api/main.go --test-mode"
+  },
+  "dependencies": {}
 }
