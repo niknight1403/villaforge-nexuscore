@@ -1,7 +1,1 @@
-{
-  "name": "my-project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \
+{ "name": "my-project", "version": "1.0.0", "description": "My project", "main": "index.js", "scripts": { "test": "echo \
